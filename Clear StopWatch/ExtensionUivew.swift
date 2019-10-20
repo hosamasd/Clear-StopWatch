@@ -368,7 +368,28 @@ extension Int {
     var factorial: Int {
         return (1..<self+1).reduce(1, *)
     }
+   
+        var msToSeconds: Double {
+            return Double(self) / 1000
+        }
+    
+    
 }
+extension TimeInterval {
+    var minuteSecondMS: String {
+        return String(format:"%02d:%02d.%02d", minute, second, millisecond)
+    }
+    var minute: Int {
+        return Int((self/60).truncatingRemainder(dividingBy: 60))
+    }
+    var second: Int {
+        return Int(truncatingRemainder(dividingBy: 60))
+    }
+    var millisecond: Int {
+        return Int((self*1000).truncatingRemainder(dividingBy: 1000))
+    }
+}
+
 extension String {
     subscript(offset: Int) -> Character {
         let newIndex = self.index(self.startIndex, offsetBy: offset)

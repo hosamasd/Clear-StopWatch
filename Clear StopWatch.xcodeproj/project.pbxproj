@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38036F83BC8A26D9E7F7ECEB /* Pods_Clear_StopWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA23E3AD8C0C4B39C7EF76A /* Pods_Clear_StopWatch.framework */; };
+		4E939F9C235C6A9E00AFC1FD /* StopwatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E939F9B235C6A9E00AFC1FD /* StopwatchModel.swift */; };
 		4EC5AA09235C393D002D5F70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5AA08235C393D002D5F70 /* AppDelegate.swift */; };
 		4EC5AA0B235C393D002D5F70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5AA0A235C393D002D5F70 /* ViewController.swift */; };
 		4EC5AA0E235C393D002D5F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC5AA0C235C393D002D5F70 /* Main.storyboard */; };
@@ -14,9 +16,14 @@
 		4EC5AA13235C393E002D5F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC5AA11235C393E002D5F70 /* LaunchScreen.storyboard */; };
 		4EC5AA1E235C3964002D5F70 /* ExtensionUivew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5AA1D235C3964002D5F70 /* ExtensionUivew.swift */; };
 		4EC5AA20235C4231002D5F70 /* StopwatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5AA1F235C4231002D5F70 /* StopwatchCell.swift */; };
+		4ECB00C9235C6FA500B9F408 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB00C8235C6FA500B9F408 /* AboutVC.swift */; };
+		4ECB00CB235C701700B9F408 /* AboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB00CA235C701700B9F408 /* AboutCell.swift */; };
+		4ECB00CF235C711000B9F408 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4ECB00D1235C711000B9F408 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A5521B416F07E3BAB420EDB /* Pods-Clear StopWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clear StopWatch.debug.xcconfig"; path = "Target Support Files/Pods-Clear StopWatch/Pods-Clear StopWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		4E939F9B235C6A9E00AFC1FD /* StopwatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchModel.swift; sourceTree = "<group>"; };
 		4EC5AA05235C393D002D5F70 /* Clear StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clear StopWatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC5AA08235C393D002D5F70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC5AA0A235C393D002D5F70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +33,12 @@
 		4EC5AA14235C393E002D5F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EC5AA1D235C3964002D5F70 /* ExtensionUivew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUivew.swift; sourceTree = "<group>"; };
 		4EC5AA1F235C4231002D5F70 /* StopwatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchCell.swift; sourceTree = "<group>"; };
+		4ECB00C8235C6FA500B9F408 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		4ECB00CA235C701700B9F408 /* AboutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
+		4ECB00D0235C711000B9F408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4ECB00D2235C711900B9F408 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D76D4027F06AE3ADB496B749 /* Pods-Clear StopWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clear StopWatch.release.xcconfig"; path = "Target Support Files/Pods-Clear StopWatch/Pods-Clear StopWatch.release.xcconfig"; sourceTree = "<group>"; };
+		EFA23E3AD8C0C4B39C7EF76A /* Pods_Clear_StopWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clear_StopWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38036F83BC8A26D9E7F7ECEB /* Pods_Clear_StopWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3748B0B6057C3ACC2F53911B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A5521B416F07E3BAB420EDB /* Pods-Clear StopWatch.debug.xcconfig */,
+				D76D4027F06AE3ADB496B749 /* Pods-Clear StopWatch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4EC5A9FC235C393D002D5F70 = {
 			isa = PBXGroup;
 			children = (
 				4EC5AA07235C393D002D5F70 /* Clear StopWatch */,
 				4EC5AA06235C393D002D5F70 /* Products */,
+				3748B0B6057C3ACC2F53911B /* Pods */,
+				A5226DAA0C54339B13E124EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +92,7 @@
 				4EC5AA11235C393E002D5F70 /* LaunchScreen.storyboard */,
 				4EC5AA14235C393E002D5F70 /* Info.plist */,
 				4EC5AA1D235C3964002D5F70 /* ExtensionUivew.swift */,
+				4ECB00CC235C70D100B9F408 /* Localization */,
 			);
 			path = "Clear StopWatch";
 			sourceTree = "<group>";
@@ -75,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				4EC5AA0A235C393D002D5F70 /* ViewController.swift */,
+				4ECB00C8235C6FA500B9F408 /* AboutVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -83,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				4EC5AA1F235C4231002D5F70 /* StopwatchCell.swift */,
+				4ECB00CA235C701700B9F408 /* AboutCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -90,8 +118,25 @@
 		4EC5AA1C235C3954002D5F70 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				4E939F9B235C6A9E00AFC1FD /* StopwatchModel.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		4ECB00CC235C70D100B9F408 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB00D1235C711000B9F408 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		A5226DAA0C54339B13E124EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFA23E3AD8C0C4B39C7EF76A /* Pods_Clear_StopWatch.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC5AA17235C393E002D5F70 /* Build configuration list for PBXNativeTarget "Clear StopWatch" */;
 			buildPhases = (
+				79EFF02190A0C35AFB8A4042 /* [CP] Check Pods Manifest.lock */,
 				4EC5AA01235C393D002D5F70 /* Sources */,
 				4EC5AA02235C393D002D5F70 /* Frameworks */,
 				4EC5AA03235C393D002D5F70 /* Resources */,
+				565914DB23FAAED4326B3021 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +173,11 @@
 				TargetAttributes = {
 					4EC5AA04235C393D002D5F70 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -136,6 +188,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 4EC5A9FC235C393D002D5F70;
 			productRefGroup = 4EC5AA06235C393D002D5F70 /* Products */;
@@ -153,12 +206,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC5AA13235C393E002D5F70 /* LaunchScreen.storyboard in Resources */,
+				4ECB00CF235C711000B9F408 /* Localizable.strings in Resources */,
 				4EC5AA10235C393E002D5F70 /* Assets.xcassets in Resources */,
 				4EC5AA0E235C393D002D5F70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		565914DB23FAAED4326B3021 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clear StopWatch/Pods-Clear StopWatch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clear StopWatch/Pods-Clear StopWatch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clear StopWatch/Pods-Clear StopWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79EFF02190A0C35AFB8A4042 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clear StopWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4EC5AA01235C393D002D5F70 /* Sources */ = {
@@ -167,8 +263,11 @@
 			files = (
 				4EC5AA0B235C393D002D5F70 /* ViewController.swift in Sources */,
 				4EC5AA09235C393D002D5F70 /* AppDelegate.swift in Sources */,
+				4ECB00C9235C6FA500B9F408 /* AboutVC.swift in Sources */,
+				4E939F9C235C6A9E00AFC1FD /* StopwatchModel.swift in Sources */,
 				4EC5AA1E235C3964002D5F70 /* ExtensionUivew.swift in Sources */,
 				4EC5AA20235C4231002D5F70 /* StopwatchCell.swift in Sources */,
+				4ECB00CB235C701700B9F408 /* AboutCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +290,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		4ECB00D1235C711000B9F408 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECB00D0235C711000B9F408 /* en */,
+				4ECB00D2235C711900B9F408 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -198,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -259,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -312,9 +422,11 @@
 		};
 		4EC5AA18235C393E002D5F70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5521B416F07E3BAB420EDB /* Pods-Clear StopWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5RTZJMVRS2;
 				INFOPLIST_FILE = "Clear StopWatch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +435,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hosam.net.Clear-StopWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = stopwatch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -330,9 +443,11 @@
 		};
 		4EC5AA19235C393E002D5F70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76D4027F06AE3ADB496B749 /* Pods-Clear StopWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5RTZJMVRS2;
 				INFOPLIST_FILE = "Clear StopWatch/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,6 +456,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hosam.net.Clear-StopWatch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = stopwatch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

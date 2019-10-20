@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  Clear StopWatch
+
+  Created by hosam on 10/20/19.
+  Copyright © 2019 hosam. All rights reserved.
+*/
+
+"lang" = "en";
+"English" = "عربي";
+"Built By \n HOSAM" = "Built By \n HOSAM";
+
+"GitHub" = "GitHub";
+"Facebook" = "Facebook";
+"AppStore" = "AppStore";
+"LinkedIn" = "LinkedIn";
+
+"About" = "About";
+
+"Clear " = "Clear ";
+"Stopwatch" = "Stopwatch";
+
+"Stop" = "Stop";
+"Start" = "Start";
+"Lap" = "Lap";
+"Reset" = "Reset";

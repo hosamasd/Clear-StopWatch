@@ -7,15 +7,20 @@
 //
 
 import UIKit
+import MOLH
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,MOLHResetable {
 
     var window: UIWindow?
-
+    func reset() {
+        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        MOLH.shared.activate(true)
+        
         window = UIWindow()
         window?.makeKeyAndVisible()
         window?.rootViewController = UINavigationController(rootViewController: ViewController())
