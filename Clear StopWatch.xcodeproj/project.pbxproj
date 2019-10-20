@@ -12,6 +12,8 @@
 		4EC5AA0E235C393D002D5F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC5AA0C235C393D002D5F70 /* Main.storyboard */; };
 		4EC5AA10235C393E002D5F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC5AA0F235C393E002D5F70 /* Assets.xcassets */; };
 		4EC5AA13235C393E002D5F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC5AA11235C393E002D5F70 /* LaunchScreen.storyboard */; };
+		4EC5AA1E235C3964002D5F70 /* ExtensionUivew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5AA1D235C3964002D5F70 /* ExtensionUivew.swift */; };
+		4EC5AA20235C4231002D5F70 /* StopwatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5AA1F235C4231002D5F70 /* StopwatchCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4EC5AA0F235C393E002D5F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC5AA12235C393E002D5F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC5AA14235C393E002D5F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC5AA1D235C3964002D5F70 /* ExtensionUivew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUivew.swift; sourceTree = "<group>"; };
+		4EC5AA1F235C4231002D5F70 /* StopwatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +59,39 @@
 			isa = PBXGroup;
 			children = (
 				4EC5AA08235C393D002D5F70 /* AppDelegate.swift */,
-				4EC5AA0A235C393D002D5F70 /* ViewController.swift */,
+				4EC5AA1C235C3954002D5F70 /* model */,
+				4EC5AA1B235C394D002D5F70 /* view */,
+				4EC5AA1A235C3944002D5F70 /* controller */,
 				4EC5AA0C235C393D002D5F70 /* Main.storyboard */,
 				4EC5AA0F235C393E002D5F70 /* Assets.xcassets */,
 				4EC5AA11235C393E002D5F70 /* LaunchScreen.storyboard */,
 				4EC5AA14235C393E002D5F70 /* Info.plist */,
+				4EC5AA1D235C3964002D5F70 /* ExtensionUivew.swift */,
 			);
 			path = "Clear StopWatch";
+			sourceTree = "<group>";
+		};
+		4EC5AA1A235C3944002D5F70 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4EC5AA0A235C393D002D5F70 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4EC5AA1B235C394D002D5F70 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4EC5AA1F235C4231002D5F70 /* StopwatchCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4EC5AA1C235C3954002D5F70 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +167,8 @@
 			files = (
 				4EC5AA0B235C393D002D5F70 /* ViewController.swift in Sources */,
 				4EC5AA09235C393D002D5F70 /* AppDelegate.swift in Sources */,
+				4EC5AA1E235C3964002D5F70 /* ExtensionUivew.swift in Sources */,
+				4EC5AA20235C4231002D5F70 /* StopwatchCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
